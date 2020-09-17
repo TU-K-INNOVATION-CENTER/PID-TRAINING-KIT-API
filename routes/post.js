@@ -9,18 +9,19 @@ router.post("/", (req, res) => {
     error: req.body.error,
     actualValue: req.body.actualValue,
     parameter: req.body.parameter,
-    time:
-      new Date().getHours() +
-      ":" +
-      new Date().getMinutes() +
-      ":" +
-      new Date().getSeconds(),
-    date:
-      new Date().getDate() +
-      "/" +
-      (new Date().getMonth() + 1) +
-      "/" +
-      new Date().getFullYear(),
+    // time:
+    //   new Date().getHours() +
+    //   ":" +
+    //   new Date().getMinutes() +
+    //   ":" +
+    //   new Date().getSeconds(),
+    time: new Date().getMilliseconds(),
+    // date:
+    //   new Date().getDate() +
+    //   "/" +
+    //   (new Date().getMonth() + 1) +
+    //   "/" +
+    //   new Date().getFullYear(),
   });
 
   data
