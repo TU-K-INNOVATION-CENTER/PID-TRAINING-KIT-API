@@ -1,0 +1,26 @@
+{
+  "name": "pid1.1",
+  "version": "1.0.0",
+  "description": "An API that holds PID Data",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --timeout 10000000"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "dotenv": "^8.2.0",
+    "express": "*",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-http": "*",
+    "mocha": "*"
+  },
+  "author": "",
+  "license": "GPL"
+}

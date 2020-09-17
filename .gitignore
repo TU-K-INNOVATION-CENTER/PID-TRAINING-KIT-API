@@ -1,0 +1,9 @@
+// the .env folder
+.env
+
+// ngrok 
+ngrok.exe
+
+// node_modules
+./node_modules
+/package-lock.json
